@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        {{>headelinks}}
+    </head>
+    <body>
+        {{>navbar}}
+        <!-- main Header -->
+        <div class="container-fluid main_header">
+            <div class="row">
+                <div class="col-md-10 col-12 mx-auto">
+                    <div class="row">
+
+                        <!-- left side div-->
+                        <div class="col-md-12 col-12 main_header_left align-item-center">
+                            <figure>
+                             <img src="image/404err.png" alt="about" class="img-fluid img-about" title="about us">
+                            </figure>
+                         
+                            <p>Welcome to weather app</p>
+                            <h1> {{errorMsg}}</h1>   <!--this msg come from app.js-->
+                            <a href="/"><button>Go back </button></a>
+                        </div>
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer code  -->
+        {{>footer}}
+                    
+    </body>
+</html>
